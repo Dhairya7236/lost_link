@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+
+  /* DARK THEME */
+  background: #0f172a; /* dark navy */
+  color: #e2e8f0; /* light text */
+}
+
+/* PAGE SPACING */
+.page-container {
+  padding: 30px;
+}
+
+/* CARD DESIGN */
+.card {
+  background: #1e293b; /* dark card */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+  padding: 20px;
+  color: #e2e8f0;
+}
+
+/* INPUTS */
+input {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+  width: 100%;
+}
+
+/* BUTTONS */
+button {
+  cursor: pointer;
+  transition: 0.3s;
+  background: #2563eb; /* blue */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #1d4ed8;
+}
